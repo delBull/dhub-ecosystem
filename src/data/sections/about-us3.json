@@ -1,0 +1,14 @@
+{
+  "id": 1,
+  "image1": "/img/01.svg",
+  "image2": "/img/02.svg",
+  "exp": {
+    "nmb": 28,
+    "name": "Years Of Experience"
+  },
+  "title": { "first": "Dive into a new universe", "second": " of connected services." },
+  "content": {
+    "first": "AGOD as the Alpha token; from which all other development promoter tokens will be created, launching ideas, dreams & goals."
+  },
+  "smallTitle": "LEARN"
+}

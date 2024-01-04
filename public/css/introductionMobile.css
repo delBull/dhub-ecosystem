@@ -1,0 +1,1009 @@
+.hidePc {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .hidePc {
+    display: block !important;
+  }
+  .getAgodText p:not(.getAgodP) {
+    font-size: 14px !important;
+  }
+  .getAgodP{
+    font-size: 21px !important;
+  }
+  img.sepratorImage.sepratorImageInver {
+    width: 120px !important;
+    transform: rotate(180deg);
+  }
+  .hideMob {
+    display: none !important;
+  }
+
+  .firstBoxPlanet {
+    /* width: 100%;
+        background-image: linear-gradient(#0e1e1f, #00767c);
+        border-radius: 15px;
+        height: 50vh !important;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 60px; */
+    width: 100%;
+    padding: 60px 10px 10px;
+    background-image: linear-gradient(#0e1e1f, #00767c);
+    border-radius: 15px;
+    /* height: 40vh !important; */
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 60px;
+  }
+  /* .scrollImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 200px;
+
+} */
+  .firstBoxPlanet .planetHeading {
+    text-align: flex-start;
+    font-size: 28px;
+    font-weight: 400;
+    width: 100%;
+    text-align: start;
+    /* margin-top: 40px; */
+  }
+
+  .firstBoxInnerPlanet {
+    display: flex;
+    /* justify-content: flex-start; */
+    align-items: flex-start;
+    width: 60%;
+    padding: 20px;
+  }
+
+  .firstBoxInnerPlanet2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+  }
+
+  .firstBoxPlanet .planetText {
+    /* text-align: justify;
+        margin-right: 25px;
+        font-size: 2vw;
+        width: 100%;
+        margin-bottom: 20px; */
+    text-align: right;
+    font-size: 14px;
+    width: 60%;
+    margin-bottom: 20px;
+    margin-top: 40px;
+  }
+
+  .imageParent {
+    position: absolute;
+    top: -80px;
+    right: 30px;
+    width: 160px;
+    aspect-ratio: 1;
+  }
+  .imageParent2 {
+    position: absolute;
+    top: -80px;
+    left: 30px;
+    width: 160px;
+    aspect-ratio: 1;
+  }
+  .imageParent2 span {
+    box-sizing: border-box;
+    display: inline-block;
+    overflow: hidden;
+    width: initial;
+    height: initial;
+    background: none;
+    opacity: 1;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    position: relative !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    aspect-ratio: 1 !important;
+  }
+  .imageParent2 span img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    box-sizing: border-box;
+    padding: 0;
+    border: none;
+    margin: auto;
+    display: block;
+    width: 0;
+    height: 0;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    width: 160px;
+    aspect-ratio: 1;
+  }
+  .imageParent span {
+    box-sizing: border-box;
+    display: inline-block;
+    overflow: hidden;
+    width: initial;
+    height: initial;
+    background: none;
+    opacity: 1;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    position: relative !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    aspect-ratio: 1 !important;
+  }
+  .imageParent span img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    box-sizing: border-box;
+    padding: 0;
+    border: none;
+    margin: auto;
+    display: block;
+    width: 0;
+    height: 0;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    width: 160px;
+    aspect-ratio: 1;
+  }
+
+  /* } */
+
+  .secondBoxPlanet {
+    width: 100%;
+    padding: 60px 10px 10px;
+    background-image: linear-gradient(#0e1e1f, #c94500);
+    border-radius: 15px;
+    /* height: 40vh !important; */
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 160px;
+  }
+
+  .secondBoxPlanet .planetHeading {
+    text-align: flex-start;
+    font-size: 28px;
+    font-weight: 400;
+    width: 100%;
+    text-align: start;
+    /* margin-top: 40px; */
+  }
+
+  .secondBoxPlanet .planetText {
+    text-align: end;
+    /* margin-right: 25px; */
+    font-size: 14px;
+    width: 70%;
+    margin-bottom: 20px;
+    margin-top: 40px;
+  }
+
+  .thirdBoxPlanet {
+    /* width: 100%;
+        background-image: linear-gradient(#0f0407, #541236);
+        border-radius: 15px;
+        height: 50vh !important;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        margin-top: 60px; */
+
+    width: 100%;
+
+    background-image: linear-gradient(#0f0407, #541236);
+    padding: 60px 10px 10px;
+    border-radius: 15px;
+    /* height: 40vh !important; */
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 160px;
+  }
+
+  .thirdBoxPlanet .planetHeading {
+    /* text-align: flex-start;
+        font-size: 3vw;
+        font-weight: 300;
+        width: 100%;
+        text-align: start;
+        margin-top: 40px; */
+    text-align: flex-start;
+    font-size: 28px;
+    font-weight: 400;
+    width: 60%;
+    text-align: end;
+    /* margin-top: 40px; */
+  }
+
+  .thirdBoxInnerPlanet {
+    display: flex;
+    /* justify-content: flex-start; */
+    align-items: flex-start;
+    width: 100%;
+    padding: 20px;
+    justify-content: end;
+  }
+
+  .thirdBoxInnerPlanet2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-content: flex-end;
+    align-items: flex-start;
+    width: 100%;
+    padding-left: 20px;
+  }
+
+  .thirdBoxPlanet .thirdBoxInnerPlanet2 .planetText {
+    text-align: start;
+    /* margin-left: 25px; */
+    font-size: 14px;
+    width: 90%;
+    margin-bottom: 20px;
+    margin-top: 40px;
+  }
+
+  .fourBoxPlanet {
+    /* width: 100%;
+        background-image: linear-gradient(#141414, #042d39);
+        border-radius: 15px;
+        height: 50vh !important;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        margin-top: 60px; */
+    width: 100%;
+    background-image: linear-gradient(#141414, #042d39);
+    border-radius: 15px;
+    /* height: 40vh !important; */
+    padding: 60px 10px 10px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 160px;
+  }
+
+  .fourBoxPlanet .planetHeading {
+    text-align: flex-start;
+    font-size: 28px;
+    font-weight: 400;
+    width: 60%;
+    text-align: end;
+    /* margin-top: 40px; */
+  }
+
+  .fourBoxInnerPlanet {
+    display: flex;
+    /* justify-content: flex-start; */
+    align-items: flex-start;
+    width: 100%;
+    padding: 20px;
+    justify-content: end;
+  }
+
+  .fourBoxInnerPlanet2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-content: flex-end;
+    align-items: flex-start;
+    width: 100%;
+    padding-left: 20px;
+  }
+
+  .fourBoxPlanet .fourBoxInnerPlanet2 .planetText {
+    text-align: start;
+    /* margin-left: 25px; */
+    font-size: 14px;
+    width: 69%;
+    margin-bottom: 20px;
+        margin-top: 40px;
+  }
+
+  .introPageInner .scrollIntro {
+    width: 1.3vw;
+    margin-top: 130px;
+    filter: contrast(1.5);
+  }
+
+  .AGODTokenSection .TextDivToken {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .imageSeperator {
+    width: 16vw;
+    filter: contrast(1.5);
+  }
+
+  .AGODTokenSection .TextDivToken div {
+    width: 60% !important;
+    align-self: flex-end !important;
+  }
+
+  .AGODTokenSection .TextDivToken .tokenContentLeft {
+    width: 60% !important;
+    align-self: flex-start !important;
+  }
+
+  .TextDivToken .wow .planetText {
+    text-align: justify;
+    width: 100% !important;
+    text-align: end;
+    /* font-size: 2vw; */
+    font-size: 13px;
+  }
+  .TextDivToken .wow .planetTextLeft {
+    text-align: justify;
+    width: 100% !important;
+    text-align: start;
+    font-size: 13px;
+  }
+  .AGODTokenSection .TextDivToken .imageSepParent {
+    width: 60% !important;
+  }
+
+  .introPage .sepratorImage {
+    width: 120px !important;
+    filter: contrast(1.5);
+  }
+  .AGODTokenSection .agodTokenHeading {
+    font-weight: 300 !important;
+    text-align: center;
+    letter-spacing: 1px !important;
+    word-spacing: 1px !important;
+    font-size: 5vw !important;
+  }
+  .getAgodText {
+    /* padding: 102px 130px 10px !important; */
+    padding: 50px 60px 10px !important;
+  }
+
+  /* .teamSection .sepratorImageInverDiv .sepratorImage {
+    transform: rotate(180deg);
+  } */
+
+  /* .introPage .introPageInner .FirstSection .firstPlanet{
+
+
+    background-image: linear-gradient(#0e1e1f, #00767c);
+    border-radius: 15px;
+    height: 50vh !important;
+}
+
+.introPage .introPageInner .FirstSection .firstPlanet .planetHeading {
+
+    text-align: center;
+    font-size: 3vw;
+    margin: 0px;
+    padding: 0px;
+    margin: 0px;
+    padding: 0px;
+    width: 340px;
+    text-align: initial;
+    font-weight: 300;
+}
+
+.introPage .introPageInner .FirstSection .firstPlanet .plannetDetail .planetTextDiv  .planetText{
+    padding: 0px;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    font-size: 2vw;
+text-align: end;
+width: 420px;
+}
+.introPage .introPageInner .FirstSection .firstPlanet .plannetDetail .planetPicDiv  span img{
+    min-width: 30% !important;
+    max-width: 30% !important;
+    min-height: 30% !important;
+    max-height: 30% !important;
+    height: 30% !important;
+    width: 30% !important;
+    position: absolute !important;
+    top: 0 !important;
+    bottom: 0 !important;
+    border-radius: 50%;
+    left: 414px !important;
+
+} 
+
+
+ 
+
+    .planetHeading{
+        font-size: 14px;
+    }
+
+.introPage .introPageInner .FirstSection .firstPlanet{
+display: flex;
+flex-direction: column-reverse;
+margin-top: 250px;
+position: relative;
+width: 100%;
+
+}
+
+.introPage .introPageInner .FirstSection .secondPlanet{
+
+
+    background-image: linear-gradient(
+    #171412, #3f210f);
+    border-radius: 15px;
+    height: 50vh !important;
+    margin-top: 180px;
+    position: relative;
+width: 100%;
+}
+.secondPlanet .plannetDetail .planetPicDiv  span img{
+    height: 30% !important;
+    width: 30% !important;
+    position: absolute !important;
+    top: -745px!important;
+    min-width: 30% !important;
+    max-width: 30% !important;
+    min-height: 30% !important;
+    max-height: 30% !important;
+    height: 30% !important;
+    width: 30% !important;
+    position: absolute !important;
+    top: 0 !important;
+    bottom: 0 !important;
+    left: 414px !important;
+
+
+}
+
+.secondPlanet .planetHeading {
+    text-align: center;
+    font-size: 3vw;
+    margin: 0px;
+    padding: 0px;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    top: 79px;
+    width: 340px;
+    text-align: initial;
+    left: -80px;
+    bottom: 275px;
+    font-weight: 300;
+
+}
+
+.secondPlanet .plannetDetail .planetTextDiv  .planetText{
+
+    padding: 0px;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    font-size: 2vw;
+bottom: 10px;
+bottom: -32px;
+right: 26px;
+position: absolute;
+width: 100%;
+text-align: end;
+width: 420px;
+
+}
+
+.agodTokenHeading{
+    font-weight: 300 !important;
+    font-size: 2.5;
+
+}
+.wow{
+    width: 60% !important;
+}
+.AGODTokenSection .TextDivToken  .wow  .planetText  {
+font-size: 2vw !important;
+}
+
+.TextDivToken{
+    display: flex;
+    justify-content: flex-end !important;
+
+}
+.secondTextDivToken {
+    display: flex;
+    justify-content: flex-start !important;
+
+} */
+
+  .scrollIntoContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .FirstSection {
+    padding: 80px 18px !important;
+  }
+  .SecSection {
+    padding: 0px 18px;
+  }
+  .footerCopywrite p {
+    font-size: 14px !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  .AGODTokenSection .agodTokenHeading {
+    font-weight: 300 !important;
+    text-align: center;
+    letter-spacing: 1px !important;
+    word-spacing: 1px !important;
+    font-size: 5vw !important;
+  }
+  .footerCopywrite p {
+    font-size: 14px !important;
+  }
+  .FirstSection {
+    padding: 80px 18px !important;
+  }
+  .SecSection {
+    padding: 0px 18px !important;
+  }
+  .hidePc {
+    display: block !important;
+  }
+
+  .hideMob {
+    display: none;
+  }
+
+  .firstBoxPlanet {
+    width: 100%;
+    padding: 10px;
+    background-image: linear-gradient(#0e1e1f, #00767c);
+    border-radius: 15px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 110px;
+  }
+
+  .firstBoxPlanet .planetHeading {
+    text-align: flex-start;
+    font-size: 18px;
+    font-weight: 400;
+    width: 100%;
+    text-align: start;
+    margin-top: 40px;
+  }
+
+  .firstBoxInnerPlanet {
+    display: flex;
+    /* justify-content: flex-start; */
+    align-items: flex-start;
+    width: 95%;
+    padding: 20px;
+  }
+
+  .firstBoxInnerPlanet2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+  }
+
+  .firstBoxPlanet .planetText {
+    /* text-align: justify;
+        margin-right: 25px;
+        font-size: 2vw;
+        width: 100%;
+        margin-bottom: 20px; */
+    text-align: right;
+    font-size: 14px;
+    width: 92%;
+    margin-bottom: 20px;
+    margin-top: 40px;
+  }
+
+  /* } */
+
+  .secondBoxPlanet {
+    width: 100%;
+    padding: 10px;
+    background-image: linear-gradient(#0e1e1f, #c94500);
+    border-radius: 15px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 110px;
+  }
+
+  .secondBoxPlanet .planetHeading {
+    text-align: flex-start;
+    font-size: 18px;
+    font-weight: 400;
+    width: 100%;
+    text-align: start;
+    margin-top: 40px;
+  }
+
+  .secondBoxPlanet .planetText {
+    text-align: end;
+    /* margin-right: 25px; */
+    font-size: 14px;
+    width: 92%;
+    margin-bottom: 20px;
+    margin-top: 40px;
+
+  }
+
+  .thirdBoxPlanet {
+    /* width: 100%;
+        background-image: linear-gradient(#0f0407, #541236);
+        border-radius: 15px;
+        height: 50vh !important;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        margin-top: 60px; */
+
+    width: 100%;
+    background-image: linear-gradient(#0f0407, #541236);
+    border-radius: 15px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 110px;
+    padding: 10px !important;
+  }
+
+  .thirdBoxPlanet .planetHeading {
+    /* text-align: flex-start;
+        font-size: 3vw;
+        font-weight: 300;
+        width: 100%;
+        text-align: start;
+        margin-top: 40px; */
+    text-align: flex-start;
+    font-size: 17px;
+    font-weight: 400;
+    width: 95%;
+    text-align: end;
+    margin-top: 40px;
+  }
+
+  .thirdBoxInnerPlanet {
+    display: flex;
+    /* justify-content: flex-start; */
+    align-items: flex-start;
+    width: 100%;
+    padding: 20px;
+    justify-content: end;
+  }
+
+  .thirdBoxInnerPlanet2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-content: flex-end;
+    align-items: flex-start;
+    width: 100%;
+    padding-left: 20px;
+  }
+
+  .thirdBoxPlanet .thirdBoxInnerPlanet2 .planetText {
+    text-align: start;
+    /* margin-left: 25px; */
+    font-size: 14px;
+    width: 90%;
+    margin-bottom: 20px;
+    
+  }
+
+  .fourBoxPlanet {
+    /* width: 100%;
+        background-image: linear-gradient(#141414, #042d39);
+        border-radius: 15px;
+        height: 50vh !important;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        margin-top: 60px; */
+    width: 100%;
+    background-image: linear-gradient(#141414, #042d39);
+    border-radius: 15px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 110px;
+    padding: 10px !important;
+  }
+
+  .fourBoxPlanet .planetHeading {
+    text-align: flex-start;
+    font-size: 17px;
+    font-weight: 400;
+    width: 95%;
+    text-align: end;
+    margin-top: 40px;
+  }
+
+  .fourBoxInnerPlanet {
+    display: flex;
+    /* justify-content: flex-start; */
+    align-items: flex-start;
+    width: 100%;
+    padding: 20px;
+    justify-content: end;
+  }
+
+  .fourBoxInnerPlanet2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-content: flex-end;
+    align-items: flex-start;
+    width: 100%;
+    padding-left: 20px;
+  }
+
+  .fourBoxPlanet .fourBoxInnerPlanet2 .planetText {
+    text-align: start;
+    /* margin-left: 25px; */
+    font-size: 14px;
+    width: 92%;
+    margin-bottom: 20px;
+    margin-top: 40px;
+
+  }
+
+  .introPageInner .scrollIntro {
+    width: 1.6vw;
+    margin-top: 130px;
+    filter: contrast(1.5);
+  }
+
+  .AGODTokenSection .TextDivToken {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .imageSeperator {
+    width: 16vw;
+    filter: contrast(1.5);
+  }
+
+  .AGODTokenSection .TextDivToken div {
+    width: 60% !important;
+    align-self: flex-end !important;
+  }
+
+  .AGODTokenSection .TextDivToken .tokenContentLeft {
+    width: 60% !important;
+    align-self: flex-start !important;
+  }
+
+  .TextDivToken .wow .planetText {
+    text-align: justify;
+    width: 100% !important;
+    text-align: end;
+    font-size: 13px;
+  }
+  .TextDivToken .wow .planetTextLeft {
+    text-align: justify;
+    width: 100% !important;
+    text-align: start;
+    /* font-size: 2vw; */
+  }
+  .AGODTokenSection .TextDivToken .imageSepParent2 {
+    width: 60% !important;
+    filter: contrast(2);
+  }
+  .AGODTokenSection .TextDivToken .imageSepParent {
+    width: 80% !important;
+    filter: contrast(2);
+  }
+
+  .sepratorImage {
+    width: 120px !important;
+  }
+  .AGODTokenSection .agodTokenHeading {
+    font-weight: 300 !important;
+    text-align: center;
+    letter-spacing: 1px !important;
+    word-spacing: 1px !important;
+    font-size: 5vw !important;
+  }
+  .getAgodText {
+  }
+
+  .imageParent {
+    position: absolute;
+    top: -75px;
+    right: 15px;
+    width: 150px;
+    aspect-ratio: 1;
+  }
+  .imageParent2 {
+    position: absolute;
+    top: -75px;
+    right: 15px;
+    width: 150px;
+    aspect-ratio: 1;
+  }
+  .imageParent2 span {
+    box-sizing: border-box;
+    display: inline-block;
+    overflow: hidden;
+    width: initial;
+    height: initial;
+    background: none;
+    opacity: 1;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    position: relative !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    aspect-ratio: 1 !important;
+  }
+  .imageParent2 span img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    box-sizing: border-box;
+    padding: 0;
+    border: none;
+    margin: auto;
+    display: block;
+    width: 0;
+    height: 0;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    width: 120px;
+    aspect-ratio: 1;
+  }
+  .imageParent span {
+    box-sizing: border-box;
+    display: inline-block;
+    overflow: hidden;
+    width: initial;
+    height: initial;
+    background: none;
+    opacity: 1;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    position: relative !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    aspect-ratio: 1 !important;
+  }
+  .imageParent span img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    box-sizing: border-box;
+    padding: 0;
+    border: none;
+    margin: auto;
+    display: block;
+    width: 0;
+    height: 0;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    width: 120px;
+    aspect-ratio: 1;
+  }
+  .scrollIntoContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .secondBoxPlanet .thirdBoxInnerPlanet2 .planetText {
+    text-align: start;
+    /* margin-left: 25px; */
+    font-size: 15px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .firstBoxPlanet .planetText {
+    text-align: end;
+    /* margin-left: 25px; */
+    font-size: 15px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .thirdBoxPlanet .thirdBoxInnerPlanet2 .planetText {
+    text-align: start;
+    /* margin-left: 25px; */
+    font-size: 15px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .fourBoxPlanet .fourBoxInnerPlanet2 .planetText {
+    text-align: start;
+    /* margin-left: 25px; */
+    font-size: 14px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .getAgodText {
+    /* padding: 62px 60px 10px !important; */
+  }
+
+  .imageParent {
+    position: absolute;
+    top: -50px;
+    right: 14px;
+    width: 90px;
+    aspect-ratio: 1;
+  }
+
+  .imageParent2 {
+    position: absolute;
+    top: -28px;
+    left: 15px;
+    width: 90px;
+    aspect-ratio: 1;
+  }
+  .AGODTokenSection .agodTokenHeading {
+    font-weight: 300 !important;
+    text-align: center;
+    letter-spacing: 1px !important;
+    word-spacing: 1px !important;
+    font-size: 5vw !important;
+  }
+}

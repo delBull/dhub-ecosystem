@@ -1,0 +1,274 @@
+@media screen and (max-width: 768px) {
+  .ecosystemPage{
+    scroll-behavior: smooth;
+  }
+  .ResponsiveImg,
+  .responsiveAgodText,
+  .responsiveBox,
+  .responsiveHeading {
+    display: block !important;
+  }
+  .responsiveAgodText{
+    overflow: hidden;
+  }
+  .scrollImg img {
+    width: 0.9vw;
+    filter: contrast(1.5);
+  }
+  .scrollImg {
+    display: flex !important;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+    margin-top: 30px;
+  }
+  .responsiveAgodTextnone {
+    display: none !important;
+  }
+  .bockImageNone {
+    background: none !important;
+  }
+  .responsiveAgodText .textDivEcoDiv .swiper-wrapper {
+    align-items: center !important;
+  }
+  .responsiveAgodText .textDivEcoDiv .swiper-wrapper .swiper-slide {
+    display: flex !important;
+    justify-content: flex-end !important;
+  }
+  .ecosystemPage .innerEcosystemPage .responsiveAgodText {
+    background-image: url("./../img/newEcosystem/ECOSYSTEM\ FINAL\ HD.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 80% auto;
+    /* height: 700px; */
+    display: flex !important;
+    background-position-x: -50%;
+    display: flex !important;
+    /* min-height: 100vh; */
+    justify-content: flex-end;
+    background-attachment: fixed;
+    padding: 0px;
+  }
+
+  .method {
+    background-color: white;
+ }
+  .method__wrap {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400vh;
+ }
+  .method__single {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1140px;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 0.957rem;
+    opacity: 0;
+    transition: 300ms;
+ }
+  .method__single--4 {
+    top: auto;
+    bottom: 0;
+    height: 25%;
+ }
+  .method__single.fade-in {
+    opacity: 1;
+ }
+  .sticky .method__single {
+    position: fixed;
+ }
+  .method__inside {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80%;
+    padding: 2.871rem 0.957rem;
+    border-top: 1px solid #21578a;
+    border-bottom: 1px solid #21578a;
+ }
+  .method__content {
+    width: 45%;
+    padding: 1.914rem 0;
+ }
+  .method__image {
+    width: 48%;
+ }
+  @media (max-width: 800px) {
+    .method__wrap {
+      flex-wrap: wrap;
+      height: auto;
+   }
+    .method__single {
+      position: relative;
+      width: 100%;
+      opacity: 1;
+      height: auto;
+   }
+    .method__inside {
+      flex-wrap: wrap;
+      height: auto;
+      border-bottom: none;
+   }
+    .method__content {
+      width: 100%;
+   }
+    .method__image {
+      width: 100%;
+   }
+ }
+  
+  .responsiveAgodText .textDivEco p {
+    font-size: 20.7px !important;
+    text-align: right !important;
+    font-weight: bold !important;
+  }
+  .responsiveAgodText .textDivEco p:not(:first-child) {
+    font-size: 17.7px !important;
+    font-weight: initial !important;
+  }
+  .responsiveAgodText .textDivEco p span {
+    text-decoration: underline;
+  }
+    .responsiveAgodText .textDivEco {
+    width: 100% !important;
+    margin-bottom: 0px !important;
+  }
+  .responsiveAgodText .slick-dots li.slick-active button:before {
+    opacity: 1 !important;
+    color: white !important;
+  }
+  .responsiveAgodText .slick-dots li button:before {
+    opacity: 0.5 !important;
+    color: white !important;
+  }
+  .responsiveAgodText.slick-slider {
+    position: relative !important;
+  }
+  .responsiveAgodText .slick-list {
+    z-index: 9999999 !important;
+  }
+  .responsiveAgodText .slick-dots {
+    display: flex !important;
+    top: 0 !important;
+    right: -30px !important;
+    flex-direction: column !important;
+    height: 100% !important;
+    align-items: flex-end !important;
+    justify-content: center !important;
+  }
+  .responsiveAgodText .textDivEcoDiv {
+    align-items: flex-end !important;
+    padding: 0px 40px !important;
+    justify-content: unset !important;
+    /* width: 75% !important; */
+  }
+  .agodTexts .textDivEco{
+    width: 80% !important;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .textDivEcoSlide .carousel__inner-slide{ 
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .bockImageNone br {
+    display: block !important;
+  }
+  .responsiveBox .montaincircle .shadow {
+    position: absolute;
+    left: 0px;
+  }
+  .responsiveBox p {
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    line-height: 18px !important;
+  }
+  .responsiveBox .montaincircle .Img {
+    filter: contrast(2);
+  }
+  .responsiveBox .montaincircle {
+    position: absolute;
+    width: 200px;
+    right: 0;
+    top: -100px;
+  }
+  .responsiveBox {
+    border-radius: 15px !important;
+    background-image: linear-gradient(
+      0deg,
+      #5b1e26 0%,
+      rgb(255 255 255 / 10%) 100%
+    );
+    font-size: 14px !important;
+    letter-spacing: 0px !important;
+    padding: 120px 30px 30px 30px !important;
+    font-weight: 400 !important;
+    line-height: 18px !important;
+    position: relative;
+  }
+  .responsiveBoxshow {
+    animation: responsiveBoxshow 1.5s ease backwards !important;
+    transition: 0.5s !important;
+    transition-delay: 0.3s !important;
+    animation-delay: 0.7s !important;
+  }
+  @keyframes responsiveBoxshow {
+    0% {
+      opacity: 0;
+      transform: translate(0px, 20%);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  .responsiveHeading {
+    text-align: center;
+    font-weight: 400;
+  }
+  .responsiveHeadingshow {
+    opacity: 0;
+    animation: responsiveHeadingshow 0.5s forwards !important;
+    transition: 0.5s !important;
+    transition-delay: 0.3s !important;
+    animation-delay: 0.7s !important;
+  }
+  @keyframes responsiveHeadingshow {
+    0% {
+      opacity: 1;
+      transform: scale(0.5);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  .textDivAnim{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 100px 0px;
+  }
+}
+@media screen and (min-width: 769px) {
+  .ResponsiveImg,
+  .responsiveAgodText,
+  .responsiveBox,
+  .responsiveHeading {
+    display: none !important;
+  }
+}

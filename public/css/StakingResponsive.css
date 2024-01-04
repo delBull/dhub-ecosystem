@@ -1,0 +1,231 @@
+@media screen and (max-width: 768px) {
+  .secondSecStaking{
+    padding: 0px 10px;
+  }
+  .stakingPage .stakingPageHeading h2 {
+    font-size: 50px !important;
+    font-weight: 200 !important;
+  }
+  /* .firstSecStacking{
+    height: 100vh;
+  }
+  .secondSecStaking{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  } */
+  .stakingPage .stakingPageHeading p {
+    /* text-align: center;
+    font-size: 2vh !important;
+    font-weight: 400 !important; */
+    font-size: 16px !important;
+    font-weight: 300 !important;
+    letter-spacing: 2px !important;
+  }
+  .stakingPageHeading img {
+    width: 30%;
+  }
+  .stakingPageImage {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 5px 0px;
+  }
+  .stakingPage .stakingPageHeading {
+    padding-top: 80px;
+  }
+  .view {
+    display: none;
+  }
+  .viewResponsive {
+    display: block !important;
+  }
+  .stakingPage .stakingPageContent p {
+    margin-bottom: 60px !important;
+    margin-left: 20px !important;
+    text-align: left !important;
+    color: white;
+    font-size: 12px !important;
+    line-height: initial;
+    padding-left: 20px;
+  }
+  br {
+    display: block !important;
+  }
+  .stakingPage .innerStakingPage {
+    padding: 80px 10px 40px;
+    background-size: 100% auto;
+    height: 80vh;
+    display: flex;
+    align-items: flex-end;
+    background-size: contain !important;
+  }
+  .stakingPageContentImg {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+  }
+  .stakingPageContentImg img {
+    width: 130px;
+  }
+  .stakingPageContentCenterDiv {
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+  .stakingPageContentCenter p {
+    line-height: 1.5;
+    font-size: 17px !important;
+  }
+  .StakingPageImage3 {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px;
+    /* margin-bottom: 200px !important; */
+  }
+  .StakingPageImage3 img {
+    width: 40%;
+    filter: contrast(1.3);
+  }
+  .backgroundinnerStakingPage2 {
+    height: auto !important;
+    background: linear-gradient(
+      180deg,
+      #3a1c2078 0%,
+      rgba(58, 28, 32, 1) 100%,
+      #3a1c2078 100%
+    ) !important;
+    margin: 10px 25px;
+    padding: 48px;
+    border-radius: 25px;
+    position: relative;
+    margin-top: 130px;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+  }
+  .backgroundinnerStakingPage2 h3 {
+    /* font-size: 5vw !important; */
+    font-size: 28px !important;
+    text-align: center;
+    font-weight: 400 !important;
+  }
+  .backgroundinnerStakingPage2 img {
+    width: 15%;
+    position: absolute;
+    /* bottom: 125px; */
+    top: -50px;
+    left: 50%;
+    transform: translate(-50%, 0px);
+    /* z-index: -1; */
+  }
+}
+@media screen and (max-width: 600px) {
+  .stakingPage .innerStakingPage {
+    padding: 80px 10px 40px;
+    background-size: 100% auto;
+    height: 70vh;
+    display: flex;
+    align-items: flex-end;
+    background-size: contain !important;
+  }
+  .stakingPage .stakingPageContent p {
+    margin-bottom: 45px !important;
+    margin-left: 25px !important;
+    text-align: left !important;
+    color: white;
+    font-size: 12px !important;
+    line-height: initial;
+    padding-left: 20px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .stakingPage .innerStakingPage {
+    padding: 80px 10px 40px;
+    background-size: 100% auto;
+    height: 65vh;
+    display: flex;
+    align-items: flex-end;
+    background-size: contain !important;
+  }
+  .stakingPage .stakingPageContent p {
+    margin-bottom: 50px !important;
+    margin-left: 5px !important;
+    text-align: left !important;
+    color: white;
+    font-size: 12px !important;
+    line-height: initial;
+    padding-left: 20px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .backgroundinnerStakingPage2 img {
+    width: 25%;
+    position: absolute;
+    bottom: 130px;
+    left: 50%;
+    transform: translate(-50%, 0px);
+    /* z-index: -1; */
+  }
+  .stakingPage .innerStakingPage {
+    padding: 80px 10px 40px;
+    background-size: 100% auto;
+    height: 50vh;
+    display: flex;
+    align-items: flex-end;
+    background-size: contain !important;
+  }
+  .stakingPage .stakingPageContent p {
+    margin-bottom: 20px !important;
+    margin-left: 0px !important;
+    text-align: left !important;
+    color: white;
+    /* font-size: 3.2vw !important; */
+    font-size: 12px !important;
+    line-height: initial;
+    padding-left: 20px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .stakingPage .innerStakingPage {
+    padding: 80px 10px 40px;
+    background-size: 100% auto;
+    height: 50vh;
+    display: flex;
+    align-items: flex-end;
+    background-size: contain !important;
+  }
+  .stakingPage .stakingPageContent p {
+    margin-bottom: 30px !important;
+    margin-left: 5px !important;
+    text-align: left !important;
+    color: white;
+    font-size: 12px !important;
+    line-height: initial;
+    padding-left: 20px;
+  }
+}
+@media screen and (max-width: 325px) {
+  .stakingPage .innerStakingPage {
+    padding: 80px 10px 40px;
+    background-size: 100% auto;
+    height: 50vh;
+    display: flex;
+    align-items: flex-end;
+    background-size: contain !important;
+  }
+  .stakingPage .stakingPageContent p {
+    margin-bottom: 60px !important;
+    margin-left: 0px !important;
+    text-align: left !important;
+    color: white;
+    font-size: 12px !important;
+    line-height: initial;
+    padding-left: 20px;
+  }
+}
+.viewResponsive {
+  display: none;
+}

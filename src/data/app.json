@@ -1,0 +1,23 @@
+{
+    "lightLogo": "/img/logo-dark.png",
+    "darkLogo": "/img/logo-dark.png",
+    "footerlogo": "/img/logo-footer.png",
+    "header1": "/img/newPage/HEADER 1.png",
+    "COERNERLEFT": "/img/newPage/COERNERLEFT.svg",
+    "CORNERRIGTH": "/img/newPage/CORNERRIGTH.svg",
+    "MEDIUM": "/img/newPage/MEDIUM.png",
+    "showLoading": true,
+    "SEPARATORBELOW":"/img/newPage/SEPARATORBELOW.png",
+    "SEPARATORUP":"/img/newPage/SEPARATORUP.png",
+    "button":"/img/newPage/botton.svg",
+    "galaxy": "/img/newPage/ECOSYSTEM 3.png",
+
+
+    "introFirstPlanet": "/img/newIntroAssets/INTRO 1 HD.png",
+    "introSecondPlanet": "/img/newIntroAssets/INTRO 2 HD.png",
+    "introfourthPlanet": "/img/newIntroAssets/INTRO 4 HD.png",
+    "introfifthPlanet": "/img/newIntroAssets/INTRO 5 HD.png"
+
+
+    
+}

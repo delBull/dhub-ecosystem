@@ -1,0 +1,1194 @@
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 1 Expected: 3
+    at Parser._tryReadPacketHeader (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    at readableAddChunk (internal/streams/readable.js:267:9)
+    at Socket.Readable.push (internal/streams/readable.js:206:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:400:28)
+    at Protocol._delegateError (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:400:28)
+    at Protocol._delegateError (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:400:28)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) {
+  errno: -104,
+  code: 'ECONNRESET',
+  syscall: 'read',
+  fatal: true
+}
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:400:28)
+    at Protocol._delegateError (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:400:28)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) {
+  errno: -104,
+  code: 'ECONNRESET',
+  syscall: 'read',
+  fatal: true
+}
+(node:3650217) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'userID' of undefined
+    at /home/agodwvaa/agodecosystem.com/backend/payment.js:353:27
+    at Query.<anonymous> (/home/agodwvaa/agodecosystem.com/backend/user.js:39:5)
+    at Query.<anonymous> (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query._handleFinalResultPacket (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/sequences/Query.js:149:8)
+    at Query.EofPacket (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/sequences/Query.js:133:8)
+    at Protocol._parsePacket (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    at readableAddChunk (internal/streams/readable.js:267:9)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:3650217) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 3)
+(node:3650217) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:346363) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'userID' of undefined
+    at /home/agodwvaa/agodecosystem.com/backend/payment.js:353:27
+    at Query.<anonymous> (/home/agodwvaa/agodecosystem.com/backend/user.js:39:5)
+    at Query.<anonymous> (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query._handleFinalResultPacket (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/sequences/Query.js:149:8)
+    at Query.EofPacket (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/sequences/Query.js:133:8)
+    at Protocol._parsePacket (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:346363) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:346363) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:400:28)
+    at Protocol._delegateError (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:400:28)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) {
+  errno: -104,
+  code: 'ECONNRESET',
+  syscall: 'read',
+  fatal: true
+}
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:400:28)
+    at Protocol._delegateError (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:400:28)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) {
+  errno: -104,
+  code: 'ECONNRESET',
+  syscall: 'read',
+  fatal: true
+}
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:400:28)
+    at Protocol._delegateError (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:400:28)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) {
+  errno: -104,
+  code: 'ECONNRESET',
+  syscall: 'read',
+  fatal: true
+}
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:400:28)
+    at Protocol._delegateError (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:400:28)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) {
+  errno: -104,
+  code: 'ECONNRESET',
+  syscall: 'read',
+  fatal: true
+}
+Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'react-toastify' imported from /home/agodwvaa/agodecosystem.com/.next/server/pages/_app.js
+Did you mean to import react-toastify/dist/react-toastify.js?
+    at new NodeError (internal/errors.js:322:7)
+    at packageResolve (internal/modules/esm/resolve.js:732:9)
+    at moduleResolve (internal/modules/esm/resolve.js:773:18)
+    at Loader.defaultResolve [as _resolve] (internal/modules/esm/resolve.js:887:11)
+    at Loader.resolve (internal/modules/esm/loader.js:89:40)
+    at Loader.getModuleJob (internal/modules/esm/loader.js:242:28)
+    at Loader.import (internal/modules/esm/loader.js:177:28)
+    at importModuleDynamically (internal/modules/cjs/loader.js:1028:27)
+    at exports.importModuleDynamicallyCallback (internal/process/esm_loader.js:30:14)
+    at Object.3590 (/home/agodwvaa/agodecosystem.com/.next/server/pages/_app.js:728:1)
+    at __webpack_require__ (/home/agodwvaa/agodecosystem.com/.next/server/webpack-runtime.js:25:42)
+    at /home/agodwvaa/agodecosystem.com/.next/server/chunks/1990.js:463:72
+    at Function.__webpack_require__.a (/home/agodwvaa/agodecosystem.com/.next/server/webpack-runtime.js:98:13)
+    at Object.1007 (/home/agodwvaa/agodecosystem.com/.next/server/chunks/1990.js:433:21)
+    at __webpack_require__ (/home/agodwvaa/agodecosystem.com/.next/server/webpack-runtime.js:25:42)
+    at /home/agodwvaa/agodecosystem.com/.next/server/pages/_app.js:491:76 {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'react-toastify' imported from /home/agodwvaa/agodecosystem.com/.next/server/pages/_app.js
+Did you mean to import react-toastify/dist/react-toastify.js?
+    at new NodeError (internal/errors.js:322:7)
+    at packageResolve (internal/modules/esm/resolve.js:732:9)
+    at moduleResolve (internal/modules/esm/resolve.js:773:18)
+    at Loader.defaultResolve [as _resolve] (internal/modules/esm/resolve.js:887:11)
+    at Loader.resolve (internal/modules/esm/loader.js:89:40)
+    at Loader.getModuleJob (internal/modules/esm/loader.js:242:28)
+    at Loader.import (internal/modules/esm/loader.js:177:28)
+    at importModuleDynamically (internal/modules/cjs/loader.js:1028:27)
+    at exports.importModuleDynamicallyCallback (internal/process/esm_loader.js:30:14)
+    at Object.3590 (/home/agodwvaa/agodecosystem.com/.next/server/pages/_app.js:728:1)
+    at __webpack_require__ (/home/agodwvaa/agodecosystem.com/.next/server/webpack-runtime.js:25:42)
+    at /home/agodwvaa/agodecosystem.com/.next/server/chunks/1990.js:463:72
+    at Function.__webpack_require__.a (/home/agodwvaa/agodecosystem.com/.next/server/webpack-runtime.js:98:13)
+    at Object.1007 (/home/agodwvaa/agodecosystem.com/.next/server/chunks/1990.js:433:21)
+    at __webpack_require__ (/home/agodwvaa/agodecosystem.com/.next/server/webpack-runtime.js:25:42)
+    at /home/agodwvaa/agodecosystem.com/.next/server/pages/_app.js:491:76 {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+(node:2299677) UnhandledPromiseRejectionWarning: Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'react-toastify' imported from /home/agodwvaa/agodecosystem.com/.next/server/pages/_app.js
+Did you mean to import react-toastify/dist/react-toastify.js?
+    at new NodeError (internal/errors.js:322:7)
+    at packageResolve (internal/modules/esm/resolve.js:732:9)
+    at moduleResolve (internal/modules/esm/resolve.js:773:18)
+    at Loader.defaultResolve [as _resolve] (internal/modules/esm/resolve.js:887:11)
+    at Loader.resolve (internal/modules/esm/loader.js:89:40)
+    at Loader.getModuleJob (internal/modules/esm/loader.js:242:28)
+    at Loader.import (internal/modules/esm/loader.js:177:28)
+    at importModuleDynamically (internal/modules/cjs/loader.js:1028:27)
+    at exports.importModuleDynamicallyCallback (internal/process/esm_loader.js:30:14)
+    at Object.3590 (/home/agodwvaa/agodecosystem.com/.next/server/pages/_app.js:728:1)
+    at __webpack_require__ (/home/agodwvaa/agodecosystem.com/.next/server/webpack-runtime.js:25:42)
+    at /home/agodwvaa/agodecosystem.com/.next/server/chunks/1990.js:463:72
+    at Function.__webpack_require__.a (/home/agodwvaa/agodecosystem.com/.next/server/webpack-runtime.js:98:13)
+    at Object.1007 (/home/agodwvaa/agodecosystem.com/.next/server/chunks/1990.js:433:21)
+    at __webpack_require__ (/home/agodwvaa/agodecosystem.com/.next/server/webpack-runtime.js:25:42)
+    at /home/agodwvaa/agodecosystem.com/.next/server/pages/_app.js:491:76
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:2299677) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+(node:2299677) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:2299677) UnhandledPromiseRejectionWarning: Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'react-toastify' imported from /home/agodwvaa/agodecosystem.com/.next/server/pages/_app.js
+Did you mean to import react-toastify/dist/react-toastify.js?
+    at new NodeError (internal/errors.js:322:7)
+    at packageResolve (internal/modules/esm/resolve.js:732:9)
+    at moduleResolve (internal/modules/esm/resolve.js:773:18)
+    at Loader.defaultResolve [as _resolve] (internal/modules/esm/resolve.js:887:11)
+    at Loader.resolve (internal/modules/esm/loader.js:89:40)
+    at Loader.getModuleJob (internal/modules/esm/loader.js:242:28)
+    at Loader.import (internal/modules/esm/loader.js:177:28)
+    at importModuleDynamically (internal/modules/cjs/loader.js:1028:27)
+    at exports.importModuleDynamicallyCallback (internal/process/esm_loader.js:30:14)
+    at Object.3590 (/home/agodwvaa/agodecosystem.com/.next/server/pages/_app.js:728:1)
+    at __webpack_require__ (/home/agodwvaa/agodecosystem.com/.next/server/webpack-runtime.js:25:42)
+    at /home/agodwvaa/agodecosystem.com/.next/server/chunks/1990.js:463:72
+    at Function.__webpack_require__.a (/home/agodwvaa/agodecosystem.com/.next/server/webpack-runtime.js:98:13)
+    at Object.1007 (/home/agodwvaa/agodecosystem.com/.next/server/chunks/1990.js:433:21)
+    at __webpack_require__ (/home/agodwvaa/agodecosystem.com/.next/server/webpack-runtime.js:25:42)
+    at /home/agodwvaa/agodecosystem.com/.next/server/pages/_app.js:491:76
+(node:2299677) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 3)
+Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'react-toastify' imported from /home/agodwvaa/agodecosystem.com/.next/server/pages/_app.js
+Did you mean to import react-toastify/dist/react-toastify.js?
+    at new NodeError (internal/errors.js:322:7)
+    at packageResolve (internal/modules/esm/resolve.js:732:9)
+    at moduleResolve (internal/modules/esm/resolve.js:773:18)
+    at Loader.defaultResolve [as _resolve] (internal/modules/esm/resolve.js:887:11)
+    at Loader.resolve (internal/modules/esm/loader.js:89:40)
+    at Loader.getModuleJob (internal/modules/esm/loader.js:242:28)
+    at Loader.import (internal/modules/esm/loader.js:177:28)
+    at importModuleDynamically (internal/modules/cjs/loader.js:1028:27)
+    at exports.importModuleDynamicallyCallback (internal/process/esm_loader.js:30:14)
+    at Object.3590 (/home/agodwvaa/agodecosystem.com/.next/server/pages/_app.js:728:1)
+    at __webpack_require__ (/home/agodwvaa/agodecosystem.com/.next/server/webpack-runtime.js:25:42)
+    at /home/agodwvaa/agodecosystem.com/.next/server/chunks/1990.js:463:72
+    at Function.__webpack_require__.a (/home/agodwvaa/agodecosystem.com/.next/server/webpack-runtime.js:98:13)
+    at Object.1007 (/home/agodwvaa/agodecosystem.com/.next/server/chunks/1990.js:433:21)
+    at __webpack_require__ (/home/agodwvaa/agodecosystem.com/.next/server/webpack-runtime.js:25:42)
+    at /home/agodwvaa/agodecosystem.com/.next/server/pages/_app.js:491:76 {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'react-toastify' imported from /home/agodwvaa/agodecosystem.com/.next/server/pages/_app.js
+Did you mean to import react-toastify/dist/react-toastify.js?
+    at new NodeError (internal/errors.js:322:7)
+    at packageResolve (internal/modules/esm/resolve.js:732:9)
+    at moduleResolve (internal/modules/esm/resolve.js:773:18)
+    at Loader.defaultResolve [as _resolve] (internal/modules/esm/resolve.js:887:11)
+    at Loader.resolve (internal/modules/esm/loader.js:89:40)
+    at Loader.getModuleJob (internal/modules/esm/loader.js:242:28)
+    at Loader.import (internal/modules/esm/loader.js:177:28)
+    at importModuleDynamically (internal/modules/cjs/loader.js:1028:27)
+    at exports.importModuleDynamicallyCallback (internal/process/esm_loader.js:30:14)
+    at Object.3590 (/home/agodwvaa/agodecosystem.com/.next/server/pages/_app.js:728:1)
+    at __webpack_require__ (/home/agodwvaa/agodecosystem.com/.next/server/webpack-runtime.js:25:42)
+    at /home/agodwvaa/agodecosystem.com/.next/server/chunks/1990.js:463:72
+    at Function.__webpack_require__.a (/home/agodwvaa/agodecosystem.com/.next/server/webpack-runtime.js:98:13)
+    at Object.1007 (/home/agodwvaa/agodecosystem.com/.next/server/chunks/1990.js:433:21)
+    at __webpack_require__ (/home/agodwvaa/agodecosystem.com/.next/server/webpack-runtime.js:25:42)
+    at /home/agodwvaa/agodecosystem.com/.next/server/pages/_app.js:491:76 {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'react-toastify' imported from /home/agodwvaa/agodecosystem.com/.next/server/pages/_app.js
+Did you mean to import react-toastify/dist/react-toastify.js?
+    at new NodeError (internal/errors.js:322:7)
+    at packageResolve (internal/modules/esm/resolve.js:732:9)
+    at moduleResolve (internal/modules/esm/resolve.js:773:18)
+    at Loader.defaultResolve [as _resolve] (internal/modules/esm/resolve.js:887:11)
+    at Loader.resolve (internal/modules/esm/loader.js:89:40)
+    at Loader.getModuleJob (internal/modules/esm/loader.js:242:28)
+    at Loader.import (internal/modules/esm/loader.js:177:28)
+    at importModuleDynamically (internal/modules/cjs/loader.js:1028:27)
+    at exports.importModuleDynamicallyCallback (internal/process/esm_loader.js:30:14)
+    at Object.3590 (/home/agodwvaa/agodecosystem.com/.next/server/pages/_app.js:728:1)
+    at __webpack_require__ (/home/agodwvaa/agodecosystem.com/.next/server/webpack-runtime.js:25:42)
+    at /home/agodwvaa/agodecosystem.com/.next/server/chunks/1990.js:463:72
+    at Function.__webpack_require__.a (/home/agodwvaa/agodecosystem.com/.next/server/webpack-runtime.js:98:13)
+    at Object.1007 (/home/agodwvaa/agodecosystem.com/.next/server/chunks/1990.js:433:21)
+    at __webpack_require__ (/home/agodwvaa/agodecosystem.com/.next/server/webpack-runtime.js:25:42)
+    at /home/agodwvaa/agodecosystem.com/.next/server/pages/_app.js:491:76 {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'react-toastify' imported from /home/agodwvaa/agodecosystem.com/.next/server/pages/_app.js
+Did you mean to import react-toastify/dist/react-toastify.js?
+    at new NodeError (internal/errors.js:322:7)
+    at packageResolve (internal/modules/esm/resolve.js:732:9)
+    at moduleResolve (internal/modules/esm/resolve.js:773:18)
+    at Loader.defaultResolve [as _resolve] (internal/modules/esm/resolve.js:887:11)
+    at Loader.resolve (internal/modules/esm/loader.js:89:40)
+    at Loader.getModuleJob (internal/modules/esm/loader.js:242:28)
+    at Loader.import (internal/modules/esm/loader.js:177:28)
+    at importModuleDynamically (internal/modules/cjs/loader.js:1028:27)
+    at exports.importModuleDynamicallyCallback (internal/process/esm_loader.js:30:14)
+    at Object.3590 (/home/agodwvaa/agodecosystem.com/.next/server/pages/_app.js:728:1)
+    at __webpack_require__ (/home/agodwvaa/agodecosystem.com/.next/server/webpack-runtime.js:25:42)
+    at /home/agodwvaa/agodecosystem.com/.next/server/chunks/1990.js:463:72
+    at Function.__webpack_require__.a (/home/agodwvaa/agodecosystem.com/.next/server/webpack-runtime.js:98:13)
+    at Object.1007 (/home/agodwvaa/agodecosystem.com/.next/server/chunks/1990.js:433:21)
+    at __webpack_require__ (/home/agodwvaa/agodecosystem.com/.next/server/webpack-runtime.js:25:42)
+    at /home/agodwvaa/agodecosystem.com/.next/server/pages/_app.js:491:76 {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:400:28)
+    at Protocol._delegateError (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:400:28)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) {
+  errno: -104,
+  code: 'ECONNRESET',
+  syscall: 'read',
+  fatal: true
+}
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:400:28)
+    at Protocol._delegateError (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:400:28)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) {
+  errno: -104,
+  code: 'ECONNRESET',
+  syscall: 'read',
+  fatal: true
+}
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 1 Expected: 3
+    at Parser._tryReadPacketHeader (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    at readableAddChunk (internal/streams/readable.js:267:9)
+    at Socket.Readable.push (internal/streams/readable.js:206:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:400:28)
+    at Protocol._delegateError (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:400:28)
+    at Protocol._delegateError (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:400:28)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) {
+  errno: -104,
+  code: 'ECONNRESET',
+  syscall: 'read',
+  fatal: true
+}
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 1 Expected: 3
+    at Parser._tryReadPacketHeader (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    at readableAddChunk (internal/streams/readable.js:267:9)
+    at Socket.Readable.push (internal/streams/readable.js:206:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:400:28)
+    at Protocol._delegateError (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:400:28)
+    at Protocol._delegateError (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:400:28)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) {
+  errno: -104,
+  code: 'ECONNRESET',
+  syscall: 'read',
+  fatal: true
+}
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:400:28)
+    at Protocol._delegateError (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:400:28)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) {
+  errno: -104,
+  code: 'ECONNRESET',
+  syscall: 'read',
+  fatal: true
+}
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:400:28)
+    at Protocol._delegateError (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:400:28)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) {
+  errno: -104,
+  code: 'ECONNRESET',
+  syscall: 'read',
+  fatal: true
+}
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:400:28)
+    at Protocol._delegateError (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:400:28)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) {
+  errno: -104,
+  code: 'ECONNRESET',
+  syscall: 'read',
+  fatal: true
+}
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:400:28)
+    at Protocol._delegateError (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/agodwvaa/nodevenv/agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:400:28)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) {
+  errno: -104,
+  code: 'ECONNRESET',
+  syscall: 'read',
+  fatal: true
+}
+internal/modules/cjs/loader.js:905
+  throw err;
+  ^
+
+Error: Cannot find module 'next'
+Require stack:
+- /home/agodwvaa/demo.agodecosystem.com/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at Object.<anonymous> (/home/agodwvaa/demo.agodecosystem.com/server.js:3:14)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/agodwvaa/demo.agodecosystem.com/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+internal/modules/cjs/loader.js:905
+  throw err;
+  ^
+
+Error: Cannot find module 'next'
+Require stack:
+- /home/agodwvaa/demo.agodecosystem.com/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at Object.<anonymous> (/home/agodwvaa/demo.agodecosystem.com/server.js:3:14)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/agodwvaa/demo.agodecosystem.com/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+internal/modules/cjs/loader.js:905
+  throw err;
+  ^
+
+Error: Cannot find module 'next'
+Require stack:
+- /home/agodwvaa/demo.agodecosystem.com/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at Object.<anonymous> (/home/agodwvaa/demo.agodecosystem.com/server.js:3:14)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/agodwvaa/demo.agodecosystem.com/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+internal/modules/cjs/loader.js:905
+  throw err;
+  ^
+
+Error: Cannot find module 'next'
+Require stack:
+- /home/agodwvaa/demo.agodecosystem.com/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at Object.<anonymous> (/home/agodwvaa/demo.agodecosystem.com/server.js:3:14)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/agodwvaa/demo.agodecosystem.com/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+(node:131323) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'userID' of undefined
+    at /home/agodwvaa/demo.agodecosystem.com/backend/payment.js:353:27
+    at Query.<anonymous> (/home/agodwvaa/demo.agodecosystem.com/backend/user.js:39:5)
+    at Query.<anonymous> (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query._handleFinalResultPacket (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/sequences/Query.js:149:8)
+    at Query.EofPacket (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/sequences/Query.js:133:8)
+    at Protocol._parsePacket (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    at readableAddChunk (internal/streams/readable.js:267:9)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:131323) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:131323) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:400:28)
+    at Protocol._delegateError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:400:28)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) {
+  errno: -104,
+  code: 'ECONNRESET',
+  syscall: 'read',
+  fatal: true
+}
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:400:28)
+    at Protocol._delegateError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:400:28)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) {
+  errno: -104,
+  code: 'ECONNRESET',
+  syscall: 'read',
+  fatal: true
+}
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:400:28)
+    at Protocol._delegateError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:400:28)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) {
+  errno: -104,
+  code: 'ECONNRESET',
+  syscall: 'read',
+  fatal: true
+}
+(node:2523202) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'userID' of undefined
+    at /home/agodwvaa/demo.agodecosystem.com/backend/payment.js:362:27
+    at Query.<anonymous> (/home/agodwvaa/demo.agodecosystem.com/backend/user.js:51:5)
+    at Query.<anonymous> (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query._handleFinalResultPacket (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/sequences/Query.js:149:8)
+    at Query.EofPacket (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/sequences/Query.js:133:8)
+    at Protocol._parsePacket (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    at readableAddChunk (internal/streams/readable.js:267:9)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:2523202) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:2523202) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:400:28)
+    at Protocol._delegateError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:400:28)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) {
+  errno: -104,
+  code: 'ECONNRESET',
+  syscall: 'read',
+  fatal: true
+}
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:400:28)
+    at Protocol._delegateError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:400:28)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) {
+  errno: -104,
+  code: 'ECONNRESET',
+  syscall: 'read',
+  fatal: true
+}
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:400:28)
+    at Protocol._delegateError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:400:28)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) {
+  errno: -104,
+  code: 'ECONNRESET',
+  syscall: 'read',
+  fatal: true
+}
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:400:28)
+    at Protocol._delegateError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:400:28)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) {
+  errno: -104,
+  code: 'ECONNRESET',
+  syscall: 'read',
+  fatal: true
+}
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:400:28)
+    at Protocol._delegateError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:400:28)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) {
+  errno: -104,
+  code: 'ECONNRESET',
+  syscall: 'read',
+  fatal: true
+}
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:400:28)
+    at Protocol._delegateError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:400:28)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) {
+  errno: -104,
+  code: 'ECONNRESET',
+  syscall: 'read',
+  fatal: true
+}
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:400:28)
+    at Protocol._delegateError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:400:28)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) {
+  errno: -104,
+  code: 'ECONNRESET',
+  syscall: 'read',
+  fatal: true
+}
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:400:28)
+    at Protocol._delegateError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:400:28)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) {
+  errno: -104,
+  code: 'ECONNRESET',
+  syscall: 'read',
+  fatal: true
+}
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:400:28)
+    at Protocol._delegateError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:400:28)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) {
+  errno: -104,
+  code: 'ECONNRESET',
+  syscall: 'read',
+  fatal: true
+}
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:400:28)
+    at Protocol._delegateError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:400:28)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) {
+  errno: -104,
+  code: 'ECONNRESET',
+  syscall: 'read',
+  fatal: true
+}
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:400:28)
+    at Protocol._delegateError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:400:28)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) {
+  errno: -104,
+  code: 'ECONNRESET',
+  syscall: 'read',
+  fatal: true
+}
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:400:28)
+    at Protocol._delegateError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:400:28)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) {
+  errno: -104,
+  code: 'ECONNRESET',
+  syscall: 'read',
+  fatal: true
+}
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Packets out of order. Got: 1 Expected: 3
+    at Parser._tryReadPacketHeader (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Parser.js:470:15)
+    at Parser.write (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    at Protocol.write (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    at readableAddChunk (internal/streams/readable.js:267:9)
+    at Socket.Readable.push (internal/streams/readable.js:206:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:400:28)
+    at Protocol._delegateError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleParserError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:380:10)
+    at Parser._tryReadPacketHeader (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Parser.js:478:10)
+    at Parser.write (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Parser.js:33:29)
+    [... lines matching original stack trace ...]
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23) {
+  code: 'PROTOCOL_PACKETS_OUT_OF_ORDER',
+  fatal: true
+}
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:400:28)
+    at Protocol._delegateError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:400:28)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) {
+  errno: -104,
+  code: 'ECONNRESET',
+  syscall: 'read',
+  fatal: true
+}
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:400:28)
+    at Protocol._delegateError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:400:28)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) {
+  errno: -104,
+  code: 'ECONNRESET',
+  syscall: 'read',
+  fatal: true
+}
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:400:28)
+    at Protocol._delegateError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:400:28)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) {
+  errno: -104,
+  code: 'ECONNRESET',
+  syscall: 'read',
+  fatal: true
+}
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:400:28)
+    at Protocol._delegateError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:400:28)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) {
+  errno: -104,
+  code: 'ECONNRESET',
+  syscall: 'read',
+  fatal: true
+}
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:400:28)
+    at Protocol._delegateError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:400:28)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) {
+  errno: -104,
+  code: 'ECONNRESET',
+  syscall: 'read',
+  fatal: true
+}
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:400:28)
+    at Protocol._delegateError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:400:28)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) {
+  errno: -104,
+  code: 'ECONNRESET',
+  syscall: 'read',
+  fatal: true
+}
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:400:28)
+    at Protocol._delegateError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.handleNetworkError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+    at Connection._handleNetworkError (/home/agodwvaa/nodevenv/demo.agodecosystem.com/14/lib/node_modules/mysql/lib/Connection.js:418:18)
+    at Socket.emit (events.js:400:28)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) {
+  errno: -104,
+  code: 'ECONNRESET',
+  syscall: 'read',
+  fatal: true
+}
